@@ -8,8 +8,6 @@ The **Servo Interface Mini** is a compact, flight-proven board built around the 
 
 It translates changes on pyro outputs from a flight computer into servo movement that actuates deployment hardware.
 
----
-
 ## Features
 
 * **Microcontroller**: ATmega328P running Arduino-compatible firmware
@@ -20,15 +18,11 @@ It translates changes on pyro outputs from a flight computer into servo movement
 * **Programming**: FTDI header for serial programming
 * **Form Factor**: Compact layout with mounting holes for rugged, enclosed deployment
 
----
-
 ## Applications
 
 * Servo-based parachute deployment systems
 * Signal translation between flight computers and actuators
 * Compact automation setups in rocketry and UAV systems
-
----
 
 ## Programming
 
@@ -38,13 +32,9 @@ The board is Arduino-compatible and programmed over an FTDI serial connection.
 2. **Upload Method**: Use an FTDI-to-USB adapter connected to the 6-pin header
 3. **Bootloader**: Compatible with standard Arduino bootloaders for ATmega328P
 
----
-
 ## Future Improvements
 
 * Switch to **ATmega32U4** for native USB support and remove the need for an FTDI adapter
-
----
 
 ## Notes
 
@@ -52,7 +42,5 @@ The board is Arduino-compatible and programmed over an FTDI serial connection.
 * Designed for flight computers that ground pyro outputs (open-drain or active-low)
 * Make sure servo current does not exceed 5A limit of onboard regulator
 * Double check servo travel range to avoid overdriving linkages
-
----
 
 **Disclaimer**: Use the files, hardware, and software in this repository at your own risk. We accept no responsibility for damage, failure, or unexpected behavior, especially during live flight tests.
